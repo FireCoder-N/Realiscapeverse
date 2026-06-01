@@ -1,40 +1,11 @@
-import { useEffect, useState } from 'react'
-import ReactMarkdown from 'react-markdown'
-import remarkGfm from 'remark-gfm'
-import rehypeRaw from 'rehype-raw'
-import rehypeSanitize from 'rehype-sanitize'
+import { Routes, Route } from 'react-router-dom'
+import NotePage from './NotePage'
 
 export default function App() {
-  const [content, setContent] = useState('')
-
-  useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}notes/Pantheon.md`)
-      .then(r => r.text())
-      .then(setContent)
-  }, [])
-
   return (
-    <main style={{ maxWidth: 900, margin: '40px auto' }}>
-      <ReactMarkdown
-        remarkPlugins={[remarkGfm]}
-        rehypePlugins={[rehypeRaw, rehypeSanitize]}
-        components={{
-          img: ({ src = '', alt = '', ...props }) => {
-            const normalizedSrc = src.replace(/^(\.\.\/)+/, '').replace(/^\/+/, '')
-
-            return (
-              <img
-                src={`${import.meta.env.BASE_URL}${normalizedSrc}`}
-                alt={alt}
-                style={{ width: 100 }}
-                {...props}
-              />
-            )
-          }
-        }}
-      >
-        {content}
-      </ReactMarkdown>
-    </main>
+    <Routes>
+      <Route path="/" element={<NotePage file="Pantheon.md" />} />
+      <Route path="/notes/:file" element={<NotePage />} />
+    </Routes>
   )
 }

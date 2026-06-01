@@ -1,0 +1,57 @@
+import { useEffect, useState } from 'react'
+import { useParams, Link } from 'react-router-dom'
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
+import rehypeRaw from 'rehype-raw'
+import rehypeSanitize from 'rehype-sanitize'
+
+export default function NotePage({ file: propFile }) {
+  const { file: paramFile } = useParams()
+  const file = propFile ?? paramFile
+
+  const [content, setContent] = useState('')
+
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}notes/${file}`)
+      .then(r => r.text())
+      .then(setContent)
+      .catch(err => setText(String(err)))
+  }, [file])
+
+  return (
+    <main style={{ maxWidth: 900, margin: '40px auto' }}>
+      <ReactMarkdown
+        remarkPlugins={[remarkGfm]}
+        rehypePlugins={[rehypeRaw, rehypeSanitize]}
+        components={{
+          // ---- internal markdown links ----
+          a: ({ href, children }) => {
+            if (href?.endsWith('.md')) {
+              const target = href.replace('.md', '').replace('./', '')
+              return <Link to={`/notes/${target}`}>{children}</Link>
+            }
+            return <a href={href}>{children}</a>
+          },
+
+          // ---- image handling (IMPORTANT) ----
+          img: ({ src = '', alt = '', ...props }) => {
+            const cleaned = src
+              .replace(/^(\.\.\/)+/, '')
+              .replace(/^\/+/, '')
+
+            return (
+              <img
+                src={`${import.meta.env.BASE_URL}${cleaned}`}
+                alt={alt}
+                style={{ width: 100 }}
+                {...props}
+              />
+            )
+          }
+        }}
+      >
+        {content}
+      </ReactMarkdown>
+    </main>
+  )
+}
