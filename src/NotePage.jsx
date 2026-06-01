@@ -34,7 +34,7 @@ export default function NotePage({ file: propFile }) {
   }, [fileName])
 
   return (
-    <main style={{ maxWidth: 900, margin: '40px auto' }}>
+    <main>
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
         rehypePlugins={[rehypeRaw, rehypeSanitize]}
