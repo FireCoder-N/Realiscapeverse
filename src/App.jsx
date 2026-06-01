@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
+import rehypeRaw from 'rehype-raw'
+import rehypeSanitize from 'rehype-sanitize'
 
 export default function App() {
   const [content, setContent] = useState('')
@@ -9,16 +11,28 @@ export default function App() {
     fetch(`${import.meta.env.BASE_URL}notes/Pantheon.md`)
       .then(r => r.text())
       .then(setContent)
-      .catch(err => setText(String(err)))
   }, [])
 
   return (
-    <main style={{
-      maxWidth: '900px',
-      margin: '40px auto',
-      padding: '20px'
-    }}>
-      <ReactMarkdown remarkPlugins={[remarkGfm]}>
+    <main style={{ maxWidth: 900, margin: '40px auto' }}>
+      <ReactMarkdown
+        remarkPlugins={[remarkGfm]}
+        rehypePlugins={[rehypeRaw, rehypeSanitize]}
+        components={{
+          img: ({ src = '', alt = '', ...props }) => {
+            const normalizedSrc = src.replace(/^(\.\.\/)+/, '/')
+
+            return (
+              <img
+                src={normalizedSrc}
+                alt={alt}
+                style={{ width: 100 }}
+                {...props}
+              />
+            )
+          }
+        }}
+      >
         {content}
       </ReactMarkdown>
     </main>
