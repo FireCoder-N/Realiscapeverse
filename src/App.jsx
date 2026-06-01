@@ -20,11 +20,11 @@ export default function App() {
         rehypePlugins={[rehypeRaw, rehypeSanitize]}
         components={{
           img: ({ src = '', alt = '', ...props }) => {
-            const normalizedSrc = src.replace(/^(\.\.\/)+/, '/')
+            const normalizedSrc = src.replace(/^(\.\.\/)+/, '').replace(/^\/+/, '')
 
             return (
               <img
-                src={normalizedSrc}
+                src={`${import.meta.env.BASE_URL}${normalizedSrc}`}
                 alt={alt}
                 style={{ width: 100 }}
                 {...props}
