@@ -1,73 +1,136 @@
-/* ===== Base page styling ===== */
-body {
-  margin: 0;
-  background: #f7f1dc;
-  color: #2b2b2b;
-  font-family: 'Bookman Old Style', Georgia, serif;
-  line-height: 1.6;
-}
+/* ===========================
+   TRUE HOMEBREWERY / 5E LOOK
+   (React-safe scoped version)
+   =========================== */
 
-/* ===== Markdown container ===== */
-main {
-  max-width: 900px;
+.phb {
+  position: relative;
+
+  max-width: 820px;
   margin: 40px auto;
-  padding: 40px;
-  background: #fff8e7;
-  box-shadow: 0 0 20px rgba(0,0,0,0.15);
-  border-radius: 6px;
+  padding: 48px 56px;
+
+  /* BASE PARCHMENT (layer 1) */
+  background:
+    radial-gradient(
+      ellipse at center,
+      #f7e9c8 0%,
+      #f3e1b8 55%,
+      #e8d2a2 100%
+    );
+
+  /* INK COLOR */
+  color: #1a1610;
+
+  font-family: "Bookman Old Style", Garamond, Georgia, serif;
+  line-height: 1.5;
+
+  /* PAGE DEPTH */
+  box-shadow:
+    0 0 0 1px #b89b5e,
+    0 8px 28px rgba(0,0,0,0.45);
+
+  overflow: hidden;
 }
 
-/* ===== Headings ===== */
-h1, h2, h3 {
-  font-family: Georgia, serif;
-  border-bottom: 1px solid #d6c7a1;
+/* ===========================
+   VIGNETTE (this is what you were missing)
+   =========================== */
+
+.phb::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background:
+    radial-gradient(
+      ellipse at center,
+      rgba(255,255,255,0.0) 40%,
+      rgba(0,0,0,0.08) 100%
+    );
+
+  pointer-events: none;
+}
+
+/* ===========================
+   OPTIONAL TEXTURE LAYER (noise grain)
+   =========================== */
+
+.phb::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+  opacity: 0.25;
+
+  pointer-events: none;
+}
+
+/* ===========================
+   HEADINGS (5e PRINT STYLE)
+   =========================== */
+
+.phb h1 {
+  font-size: 2.1rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+
+  border-bottom: 2px solid #b89b5e;
+  padding-bottom: 6px;
+}
+
+.phb h2 {
+  font-size: 1.4rem;
+  border-bottom: 1px solid #b89b5e;
   padding-bottom: 4px;
-  margin-top: 1.5em;
 }
 
-/* ===== Tables (important for your Pantheon.md) ===== */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1em 0;
-}
-
-th, td {
-  border: 1px solid #cdbf9e;
-  padding: 8px;
-}
-
-th {
-  background: #f0e4c2;
-}
-
-/* ===== Links ===== */
-a {
-  color: #8b5a2b;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* ===== Images ===== */
-img {
-  max-width: 100%;
-  display: block;
-  margin: 10px auto;
-  border-radius: 4px;
-}
-
-blockquote {
-  border-left: 4px solid #cdbf9e;
-  padding-left: 12px;
-  color: #5a4a2f;
+.phb h3 {
   font-style: italic;
 }
 
-hr {
-  border: none;
-  border-top: 2px solid #d6c7a1;
-  margin: 20px 0;
+/* ===========================
+   TABLES (your Pantheon table depends on this)
+   =========================== */
+
+.phb table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 18px 0;
+}
+
+.phb th {
+  background: #e2c98f;
+  border: 1px solid #b89b5e;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.phb td {
+  border: 1px solid #b89b5e;
+  padding: 10px;
+}
+
+/* ===========================
+   LINKS (ink feel)
+   =========================== */
+
+.phb a {
+  color: #6b3416;
+}
+
+.phb a:hover {
+  text-decoration: underline;
+}
+
+/* ===========================
+   IMAGES (PHB icon scale)
+   =========================== */
+
+.phb img {
+  max-width: 90px;
+  display: block;
+  margin: auto;
 }

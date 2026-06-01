@@ -35,6 +35,7 @@ export default function NotePage({ file: propFile }) {
 
   return (
     <main>
+    <div className="phb">
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
         rehypePlugins={[rehypeRaw, rehypeSanitize]}
@@ -74,6 +75,7 @@ export default function NotePage({ file: propFile }) {
       >
         {content}
       </ReactMarkdown>
+    </div>
 
       {error && (
         <div style={{ color: 'red', marginTop: 20 }}>
