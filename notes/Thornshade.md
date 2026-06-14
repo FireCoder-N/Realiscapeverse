@@ -1,7 +1,7 @@
 #location #settlement  #starting-location
 
 ## Description  
-Το **Thornshade** είναι ένα μικρό χωριό στη σκιά (στις παρυφές) του [Whispering Woods](Whispering Woods.md). 
+Το **Thornshade** είναι ένα μικρό χωριό στη σκιά (στις παρυφές) του [Whispering Woods](Whispering%20Woods.md). 
 Παρά το μέγεθός του, παρουσιάζει αξιοσημείωτη κίνηση και εμπορική δραστηριότητα.  
   
 <mark style="background: #FFF3A3A6;">Η ιστορία της ομάδας ξεκινά εδώ, στα τέλη του φθινοπώρου.  </mark>
@@ -18,5 +18,5 @@
 - Korra  
   
 ## Nearby
-- [Whispering Woods](Whispering Woods.md)  
-- [Hollow Creak](Hollow Creak.md)  (1.5 μέρα με τα πόδια προς τα ανατολικά )
+- [Whispering Woods](Whispering%20Woods.md)  
+- [Hollow Creak](Hollow%20Creak.md)  (1.5 μέρα με τα πόδια προς τα ανατολικά )

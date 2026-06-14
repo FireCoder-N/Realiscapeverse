@@ -1,86 +1,166 @@
 {
-  "Η Marrow/03-Pantheon": {
-    "name": "03-Pantheon",
-    "folderNote": "Η Marrow/03-Pantheon/03-Pantheon.md",
-    "children": [
-      "Bastion",
-      "Kestos",
-      "Maia",
-      "Mortis",
-      "Ruse",
-      "Selene",
-      "Valia"
-    ]
-  },
-  "Η Marrow/07-Arcana": {
-    "name": "07-Arcana",
-    "folderNote": "Η Marrow/07-Arcana/07-Arcana.md",
-    "children": [
-      "Black Blood"
-    ]
-  },
-  "Η Marrow/01-Geography": {
-    "name": "01-Geography",
-    "folderNote": "Η Marrow/01-Geography/01-Geography.md",
-    "children": [
-      "Cloud-Reach Peaks",
-      "Red Russ",
-      "River Varkas",
-      "Whispering Woods"
-    ]
-  },
-  "Η Marrow/02-Ecosystem": {
-    "name": "02-Ecosystem",
-    "folderNote": "Η Marrow/02-Ecosystem/02-Ecosystem.md",
-    "children": []
-  },
-  "Η Marrow/05-Folklore": {
-    "name": "05-Folklore",
-    "folderNote": "Η Marrow/05-Folklore/05-Folklore.md",
-    "children": [
-      "Τα δάκρυα των Θεών"
-    ]
-  },
-  "Η Marrow/02-Ecosystem/Fauna": {
-    "name": "Fauna",
-    "folderNote": "Η Marrow/02-Ecosystem/Fauna/Fauna.md",
-    "children": []
-  },
   "Players": {
     "name": "Players",
     "folderNote": "Players/Players.md",
-    "children": [
-      "Sealus Sealaly"
-    ]
-  },
-  "Η Marrow/04-Locations": {
-    "name": "04-Locations",
-    "folderNote": "Η Marrow/04-Locations/04-Locations.md",
-    "children": []
+    "notes": [
+      {
+        "title": "Sealus Sealaly",
+        "file": "Players/Sealus Sealaly.md"
+      }
+    ],
+    "children": {}
   },
   "Η Marrow": {
     "name": "Η Marrow",
     "folderNote": "Η Marrow/Η Marrow.md",
-    "children": []
-  },
-  "Η Marrow/02-Ecosystem/Flora": {
-    "name": "Flora",
-    "folderNote": "Η Marrow/02-Ecosystem/Flora/Flora.md",
-    "children": [
-      "King's weed"
-    ]
-  },
-  "Η Marrow/04-Locations/Settlements": {
-    "name": "Settlements",
-    "folderNote": "Η Marrow/04-Locations/Settlements/Settlements.md",
-    "children": [
-      "Eldermist",
-      "Highstone",
-      "Hollow Creak",
-      "Ironroute",
-      "Khor-Gul",
-      "Obsidian Quay",
-      "Thornshade"
-    ]
+    "notes": [],
+    "children": {
+      "01-Geography": {
+        "name": "01-Geography",
+        "folderNote": "Η Marrow/01-Geography/01-Geography.md",
+        "notes": [
+          {
+            "title": "Cloud-Reach Peaks",
+            "file": "Η Marrow/01-Geography/Cloud-Reach Peaks.md"
+          },
+          {
+            "title": "Red Russ",
+            "file": "Η Marrow/01-Geography/Red Russ.md"
+          },
+          {
+            "title": "River Varkas",
+            "file": "Η Marrow/01-Geography/River Varkas.md"
+          },
+          {
+            "title": "Whispering Woods",
+            "file": "Η Marrow/01-Geography/Whispering Woods.md"
+          }
+        ],
+        "children": {}
+      },
+      "02-Ecosystem": {
+        "name": "02-Ecosystem",
+        "folderNote": "Η Marrow/02-Ecosystem/02-Ecosystem.md",
+        "notes": [],
+        "children": {
+          "Fauna": {
+            "name": "Fauna",
+            "folderNote": "Η Marrow/02-Ecosystem/Fauna/Fauna.md",
+            "notes": [],
+            "children": {}
+          },
+          "Flora": {
+            "name": "Flora",
+            "folderNote": "Η Marrow/02-Ecosystem/Flora/Flora.md",
+            "notes": [
+              {
+                "title": "King's weed",
+                "file": "Η Marrow/02-Ecosystem/Flora/King's weed.md"
+              }
+            ],
+            "children": {}
+          }
+        }
+      },
+      "03-Pantheon": {
+        "name": "03-Pantheon",
+        "folderNote": "Η Marrow/03-Pantheon/03-Pantheon.md",
+        "notes": [
+          {
+            "title": "Bastion",
+            "file": "Η Marrow/03-Pantheon/Bastion.md"
+          },
+          {
+            "title": "Kestos",
+            "file": "Η Marrow/03-Pantheon/Kestos.md"
+          },
+          {
+            "title": "Maia",
+            "file": "Η Marrow/03-Pantheon/Maia.md"
+          },
+          {
+            "title": "Mortis",
+            "file": "Η Marrow/03-Pantheon/Mortis.md"
+          },
+          {
+            "title": "Ruse",
+            "file": "Η Marrow/03-Pantheon/Ruse.md"
+          },
+          {
+            "title": "Selene",
+            "file": "Η Marrow/03-Pantheon/Selene.md"
+          },
+          {
+            "title": "Valia",
+            "file": "Η Marrow/03-Pantheon/Valia.md"
+          }
+        ],
+        "children": {}
+      },
+      "04-Locations": {
+        "name": "04-Locations",
+        "folderNote": "Η Marrow/04-Locations/04-Locations.md",
+        "notes": [],
+        "children": {
+          "Settlements": {
+            "name": "Settlements",
+            "folderNote": "Η Marrow/04-Locations/Settlements/Settlements.md",
+            "notes": [
+              {
+                "title": "Eldermist",
+                "file": "Η Marrow/04-Locations/Settlements/Eldermist.md"
+              },
+              {
+                "title": "Highstone",
+                "file": "Η Marrow/04-Locations/Settlements/Highstone.md"
+              },
+              {
+                "title": "Hollow Creak",
+                "file": "Η Marrow/04-Locations/Settlements/Hollow Creak.md"
+              },
+              {
+                "title": "Ironroute",
+                "file": "Η Marrow/04-Locations/Settlements/Ironroute.md"
+              },
+              {
+                "title": "Khor-Gul",
+                "file": "Η Marrow/04-Locations/Settlements/Khor-Gul.md"
+              },
+              {
+                "title": "Obsidian Quay",
+                "file": "Η Marrow/04-Locations/Settlements/Obsidian Quay.md"
+              },
+              {
+                "title": "Thornshade",
+                "file": "Η Marrow/04-Locations/Settlements/Thornshade.md"
+              }
+            ],
+            "children": {}
+          }
+        }
+      },
+      "05-Folklore": {
+        "name": "05-Folklore",
+        "folderNote": "Η Marrow/05-Folklore/05-Folklore.md",
+        "notes": [
+          {
+            "title": "Τα δάκρυα των Θεών",
+            "file": "Η Marrow/05-Folklore/Τα δάκρυα των Θεών.md"
+          }
+        ],
+        "children": {}
+      },
+      "07-Arcana": {
+        "name": "07-Arcana",
+        "folderNote": "Η Marrow/07-Arcana/07-Arcana.md",
+        "notes": [
+          {
+            "title": "Black Blood",
+            "file": "Η Marrow/07-Arcana/Black Blood.md"
+          }
+        ],
+        "children": {}
+      }
+    }
   }
 }

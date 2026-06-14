@@ -1,5 +1,5 @@
 #location #settlement
-region:: [Red Russ](Red Russ.md)
+region:: [Red Russ](Red%20Russ.md)
 
 ## Description
-Η **Horgul** είναι η πρωτεύουσα των Orcs στις στέπες των [Red Russ](Red Russ.md).
+Η **Horgul** είναι η πρωτεύουσα των Orcs στις στέπες των [Red Russ](Red%20Russ.md).

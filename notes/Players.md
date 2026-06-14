@@ -1,2 +1,2 @@
 
-- [Sealus Sealaly](Sealus Sealaly.md)
+- [Sealus Sealaly](Sealus%20Sealaly.md)
