@@ -3,7 +3,7 @@
 ## Description  
 Το **Hollow Creak** είναι ένα μικρό χωριό περίπου δέκα οικογενειών.  
   
-Οι περισσότεροι κάτοικοι είναι ξυλοκόποι και η ζωή τους είναι άμεσα συνδεδεμένη με το [Whispering Woods](Whispering Woods.md).  
+Οι περισσότεροι κάτοικοι είναι ξυλοκόποι και η ζωή τους είναι άμεσα συνδεδεμένη με το [Whispering Woods](Whispering%20Woods.md).  
  
 Η θρησκευτική και πολιτική ηγεσία ασκείται από τον σαμάνο Zuna.  
 
@@ -15,4 +15,4 @@
 - Zuna  
   
 ## Nearby
-- [Whispering Woods](Whispering Woods.md)
+- [Whispering Woods](Whispering%20Woods.md)

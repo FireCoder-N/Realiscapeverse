@@ -1,3 +1,3 @@
 ## Arcana-adjacent locations:
 
-- [Whispering Woods](Whispering Woods.md)
+- [Whispering Woods](Whispering%20Woods.md)

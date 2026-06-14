@@ -9,7 +9,7 @@ export default function NotePage({ file: propFile }) {
   const params = useParams()
 
   // --- normalize note name ---
-  const raw = propFile || params.file || 'Pantheon'
+  const raw = propFile || params.file || 'Realiscapeverse'
   const noteName = raw.replace(/\.md$/, '')
   const fileName = `${noteName}.md`
 
@@ -33,9 +33,13 @@ export default function NotePage({ file: propFile }) {
       })
   }, [fileName])
 
+  const title = noteName
+
   return (
     <main>
     <div className="phb">
+      <h1 className="phb-title">{title}</h1>
+
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
         rehypePlugins={[rehypeRaw, rehypeSanitize]}

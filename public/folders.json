@@ -1,66 +1,12 @@
 {
-  "Η Marrow/03-Pantheon": {
-    "name": "03-Pantheon",
-    "folderNote": "Η Marrow/03-Pantheon/03-Pantheon.md",
-    "children": [
-      "Bastion",
-      "Kestos",
-      "Maia",
-      "Mortis",
-      "Ruse",
-      "Selene",
-      "Valia"
-    ]
-  },
-  "Η Marrow/07-Arcana": {
-    "name": "07-Arcana",
-    "folderNote": "Η Marrow/07-Arcana/07-Arcana.md",
-    "children": [
-      "Black Blood"
-    ]
-  },
-  "Η Marrow/01-Geography": {
-    "name": "01-Geography",
-    "folderNote": "Η Marrow/01-Geography/01-Geography.md",
-    "children": [
-      "Cloud-Reach Peaks",
-      "Red Russ",
-      "River Varkas",
-      "Whispering Woods"
-    ]
-  },
   "Η Marrow/02-Ecosystem": {
     "name": "02-Ecosystem",
     "folderNote": "Η Marrow/02-Ecosystem/02-Ecosystem.md",
     "children": []
   },
-  "Η Marrow/05-Folklore": {
-    "name": "05-Folklore",
-    "folderNote": "Η Marrow/05-Folklore/05-Folklore.md",
-    "children": [
-      "Τα δάκρυα των Θεών"
-    ]
-  },
   "Η Marrow/02-Ecosystem/Fauna": {
     "name": "Fauna",
     "folderNote": "Η Marrow/02-Ecosystem/Fauna/Fauna.md",
-    "children": []
-  },
-  "Players": {
-    "name": "Players",
-    "folderNote": "Players/Players.md",
-    "children": [
-      "Sealus Sealaly"
-    ]
-  },
-  "Η Marrow/04-Locations": {
-    "name": "04-Locations",
-    "folderNote": "Η Marrow/04-Locations/04-Locations.md",
-    "children": []
-  },
-  "Η Marrow": {
-    "name": "Η Marrow",
-    "folderNote": "Η Marrow/Η Marrow.md",
     "children": []
   },
   "Η Marrow/02-Ecosystem/Flora": {
@@ -81,6 +27,60 @@
       "Khor-Gul",
       "Obsidian Quay",
       "Thornshade"
+    ]
+  },
+  "Η Marrow/07-Arcana": {
+    "name": "07-Arcana",
+    "folderNote": "Η Marrow/07-Arcana/07-Arcana.md",
+    "children": [
+      "Black Blood"
+    ]
+  },
+  "Η Marrow": {
+    "name": "Η Marrow",
+    "folderNote": "Η Marrow/Η Marrow.md",
+    "children": []
+  },
+  "Η Marrow/04-Locations": {
+    "name": "04-Locations",
+    "folderNote": "Η Marrow/04-Locations/04-Locations.md",
+    "children": []
+  },
+  "Players": {
+    "name": "Players",
+    "folderNote": "Players/Players.md",
+    "children": [
+      "Sealus Sealaly"
+    ]
+  },
+  "Η Marrow/05-Folklore": {
+    "name": "05-Folklore",
+    "folderNote": "Η Marrow/05-Folklore/05-Folklore.md",
+    "children": [
+      "Τα δάκρυα των Θεών"
+    ]
+  },
+  "Η Marrow/01-Geography": {
+    "name": "01-Geography",
+    "folderNote": "Η Marrow/01-Geography/01-Geography.md",
+    "children": [
+      "Cloud-Reach Peaks",
+      "Red Russ",
+      "River Varkas",
+      "Whispering Woods"
+    ]
+  },
+  "Η Marrow/03-Pantheon": {
+    "name": "03-Pantheon",
+    "folderNote": "Η Marrow/03-Pantheon/03-Pantheon.md",
+    "children": [
+      "Bastion",
+      "Kestos",
+      "Maia",
+      "Mortis",
+      "Ruse",
+      "Selene",
+      "Valia"
     ]
   }
 }
