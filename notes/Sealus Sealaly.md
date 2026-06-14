@@ -1,0 +1,22 @@
+#dnd #player
+## Character
+
+race:: Human
+class:: Druid
+level:: 1
+age:: 69
+background:: Acolyte of Selene
+
+<img src="../assets/Sealus.png" width="500">
+
+## Backstory
+
+## Connections
+
+allies::
+organizations::
+locations::
+
+## Inventory
+
+## Notes

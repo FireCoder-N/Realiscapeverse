@@ -1,0 +1,472 @@
+{
+  "nodes": [
+    {
+      "id": "Realiscapeverse",
+      "file": "Realiscapeverse.md",
+      "folder": "."
+    },
+    {
+      "id": "Players",
+      "file": "Players/Players.md",
+      "folder": "Players"
+    },
+    {
+      "id": "Sealus Sealaly",
+      "file": "Players/Sealus Sealaly.md",
+      "folder": "Players"
+    },
+    {
+      "id": "Η Marrow",
+      "file": "Η Marrow/Η Marrow.md",
+      "folder": "Η Marrow"
+    },
+    {
+      "id": "01-Geography",
+      "file": "Η Marrow/01-Geography/01-Geography.md",
+      "folder": "Η Marrow/01-Geography"
+    },
+    {
+      "id": "Cloud-Reach Peaks",
+      "file": "Η Marrow/01-Geography/Cloud-Reach Peaks.md",
+      "folder": "Η Marrow/01-Geography"
+    },
+    {
+      "id": "Red Russ",
+      "file": "Η Marrow/01-Geography/Red Russ.md",
+      "folder": "Η Marrow/01-Geography"
+    },
+    {
+      "id": "River Varkas",
+      "file": "Η Marrow/01-Geography/River Varkas.md",
+      "folder": "Η Marrow/01-Geography"
+    },
+    {
+      "id": "Whispering Woods",
+      "file": "Η Marrow/01-Geography/Whispering Woods.md",
+      "folder": "Η Marrow/01-Geography"
+    },
+    {
+      "id": "02-Ecosystem",
+      "file": "Η Marrow/02-Ecosystem/02-Ecosystem.md",
+      "folder": "Η Marrow/02-Ecosystem"
+    },
+    {
+      "id": "03-Pantheon",
+      "file": "Η Marrow/03-Pantheon/03-Pantheon.md",
+      "folder": "Η Marrow/03-Pantheon"
+    },
+    {
+      "id": "Bastion",
+      "file": "Η Marrow/03-Pantheon/Bastion.md",
+      "folder": "Η Marrow/03-Pantheon"
+    },
+    {
+      "id": "Kestos",
+      "file": "Η Marrow/03-Pantheon/Kestos.md",
+      "folder": "Η Marrow/03-Pantheon"
+    },
+    {
+      "id": "Maia",
+      "file": "Η Marrow/03-Pantheon/Maia.md",
+      "folder": "Η Marrow/03-Pantheon"
+    },
+    {
+      "id": "Mortis",
+      "file": "Η Marrow/03-Pantheon/Mortis.md",
+      "folder": "Η Marrow/03-Pantheon"
+    },
+    {
+      "id": "Ruse",
+      "file": "Η Marrow/03-Pantheon/Ruse.md",
+      "folder": "Η Marrow/03-Pantheon"
+    },
+    {
+      "id": "Selene",
+      "file": "Η Marrow/03-Pantheon/Selene.md",
+      "folder": "Η Marrow/03-Pantheon"
+    },
+    {
+      "id": "Valia",
+      "file": "Η Marrow/03-Pantheon/Valia.md",
+      "folder": "Η Marrow/03-Pantheon"
+    },
+    {
+      "id": "04-Locations",
+      "file": "Η Marrow/04-Locations/04-Locations.md",
+      "folder": "Η Marrow/04-Locations"
+    },
+    {
+      "id": "05-Folklore",
+      "file": "Η Marrow/05-Folklore/05-Folklore.md",
+      "folder": "Η Marrow/05-Folklore"
+    },
+    {
+      "id": "Τα δάκρυα των Θεών",
+      "file": "Η Marrow/05-Folklore/Τα δάκρυα των Θεών.md",
+      "folder": "Η Marrow/05-Folklore"
+    },
+    {
+      "id": "07-Arcana",
+      "file": "Η Marrow/07-Arcana/07-Arcana.md",
+      "folder": "Η Marrow/07-Arcana"
+    },
+    {
+      "id": "Black Blood",
+      "file": "Η Marrow/07-Arcana/Black Blood.md",
+      "folder": "Η Marrow/07-Arcana"
+    },
+    {
+      "id": "Fauna",
+      "file": "Η Marrow/02-Ecosystem/Fauna/Fauna.md",
+      "folder": "Η Marrow/02-Ecosystem/Fauna"
+    },
+    {
+      "id": "Flora",
+      "file": "Η Marrow/02-Ecosystem/Flora/Flora.md",
+      "folder": "Η Marrow/02-Ecosystem/Flora"
+    },
+    {
+      "id": "King's weed",
+      "file": "Η Marrow/02-Ecosystem/Flora/King's weed.md",
+      "folder": "Η Marrow/02-Ecosystem/Flora"
+    },
+    {
+      "id": "Eldermist",
+      "file": "Η Marrow/04-Locations/Settlements/Eldermist.md",
+      "folder": "Η Marrow/04-Locations/Settlements"
+    },
+    {
+      "id": "Highstone",
+      "file": "Η Marrow/04-Locations/Settlements/Highstone.md",
+      "folder": "Η Marrow/04-Locations/Settlements"
+    },
+    {
+      "id": "Hollow Creak",
+      "file": "Η Marrow/04-Locations/Settlements/Hollow Creak.md",
+      "folder": "Η Marrow/04-Locations/Settlements"
+    },
+    {
+      "id": "Ironroute",
+      "file": "Η Marrow/04-Locations/Settlements/Ironroute.md",
+      "folder": "Η Marrow/04-Locations/Settlements"
+    },
+    {
+      "id": "Khor-Gul",
+      "file": "Η Marrow/04-Locations/Settlements/Khor-Gul.md",
+      "folder": "Η Marrow/04-Locations/Settlements"
+    },
+    {
+      "id": "Obsidian Quay",
+      "file": "Η Marrow/04-Locations/Settlements/Obsidian Quay.md",
+      "folder": "Η Marrow/04-Locations/Settlements"
+    },
+    {
+      "id": "Settlements",
+      "file": "Η Marrow/04-Locations/Settlements/Settlements.md",
+      "folder": "Η Marrow/04-Locations/Settlements"
+    },
+    {
+      "id": "Thornshade",
+      "file": "Η Marrow/04-Locations/Settlements/Thornshade.md",
+      "folder": "Η Marrow/04-Locations/Settlements"
+    }
+  ],
+  "links": [
+    {
+      "source": "Realiscapeverse",
+      "target": "Η Marrow"
+    },
+    {
+      "source": "Realiscapeverse",
+      "target": "03-Pantheon"
+    },
+    {
+      "source": "Players",
+      "target": "Sealus Sealaly"
+    },
+    {
+      "source": "Η Marrow",
+      "target": "River Varkas"
+    },
+    {
+      "source": "Η Marrow",
+      "target": "Red Russ"
+    },
+    {
+      "source": "Η Marrow",
+      "target": "Khor-Gul"
+    },
+    {
+      "source": "Η Marrow",
+      "target": "Cloud-Reach Peaks"
+    },
+    {
+      "source": "Η Marrow",
+      "target": "Ironroute"
+    },
+    {
+      "source": "Η Marrow",
+      "target": "Highstone"
+    },
+    {
+      "source": "Η Marrow",
+      "target": "Obsidian Quay"
+    },
+    {
+      "source": "Η Marrow",
+      "target": "Whispering Woods"
+    },
+    {
+      "source": "01-Geography",
+      "target": "Red Russ"
+    },
+    {
+      "source": "01-Geography",
+      "target": "River Varkas"
+    },
+    {
+      "source": "01-Geography",
+      "target": "Whispering Woods"
+    },
+    {
+      "source": "01-Geography",
+      "target": "Cloud-Reach Peaks"
+    },
+    {
+      "source": "Red Russ",
+      "target": "Khor-Gul"
+    },
+    {
+      "source": "Whispering Woods",
+      "target": "Thornshade"
+    },
+    {
+      "source": "Whispering Woods",
+      "target": "Black Blood"
+    },
+    {
+      "source": "02-Ecosystem",
+      "target": "Flora"
+    },
+    {
+      "source": "02-Ecosystem",
+      "target": "Fauna"
+    },
+    {
+      "source": "03-Pantheon",
+      "target": "Kestos"
+    },
+    {
+      "source": "03-Pantheon",
+      "target": "Bastion"
+    },
+    {
+      "source": "03-Pantheon",
+      "target": "Maia"
+    },
+    {
+      "source": "03-Pantheon",
+      "target": "Selene"
+    },
+    {
+      "source": "03-Pantheon",
+      "target": "Ruse"
+    },
+    {
+      "source": "03-Pantheon",
+      "target": "Ruse"
+    },
+    {
+      "source": "03-Pantheon",
+      "target": "Valia"
+    },
+    {
+      "source": "03-Pantheon",
+      "target": "Valia"
+    },
+    {
+      "source": "03-Pantheon",
+      "target": "Mortis"
+    },
+    {
+      "source": "Ruse",
+      "target": "Ruse"
+    },
+    {
+      "source": "Ruse",
+      "target": "Ruse"
+    },
+    {
+      "source": "Valia",
+      "target": "Valia"
+    },
+    {
+      "source": "Valia",
+      "target": "Valia"
+    },
+    {
+      "source": "04-Locations",
+      "target": "Settlements"
+    },
+    {
+      "source": "05-Folklore",
+      "target": "Τα δάκρυα των Θεών"
+    },
+    {
+      "source": "Τα δάκρυα των Θεών",
+      "target": "Η Marrow"
+    },
+    {
+      "source": "Τα δάκρυα των Θεών",
+      "target": "Bastion"
+    },
+    {
+      "source": "Τα δάκρυα των Θεών",
+      "target": "Valia"
+    },
+    {
+      "source": "Τα δάκρυα των Θεών",
+      "target": "Selene"
+    },
+    {
+      "source": "Τα δάκρυα των Θεών",
+      "target": "Kestos"
+    },
+    {
+      "source": "Τα δάκρυα των Θεών",
+      "target": "Maia"
+    },
+    {
+      "source": "Τα δάκρυα των Θεών",
+      "target": "Selene"
+    },
+    {
+      "source": "Τα δάκρυα των Θεών",
+      "target": "Hollow Creak"
+    },
+    {
+      "source": "07-Arcana",
+      "target": "Whispering Woods"
+    },
+    {
+      "source": "Black Blood",
+      "target": "Whispering Woods"
+    },
+    {
+      "source": "Black Blood",
+      "target": "King's weed"
+    },
+    {
+      "source": "Flora",
+      "target": "King's weed"
+    },
+    {
+      "source": "King's weed",
+      "target": "Whispering Woods"
+    },
+    {
+      "source": "King's weed",
+      "target": "Maia"
+    },
+    {
+      "source": "King's weed",
+      "target": "Highstone"
+    },
+    {
+      "source": "King's weed",
+      "target": "Hollow Creak"
+    },
+    {
+      "source": "King's weed",
+      "target": "Black Blood"
+    },
+    {
+      "source": "Eldermist",
+      "target": "Highstone"
+    },
+    {
+      "source": "Eldermist",
+      "target": "Ironroute"
+    },
+    {
+      "source": "Eldermist",
+      "target": "Selene"
+    },
+    {
+      "source": "Highstone",
+      "target": "Maia"
+    },
+    {
+      "source": "Highstone",
+      "target": "Maia"
+    },
+    {
+      "source": "Highstone",
+      "target": "Eldermist"
+    },
+    {
+      "source": "Hollow Creak",
+      "target": "Whispering Woods"
+    },
+    {
+      "source": "Hollow Creak",
+      "target": "Selene"
+    },
+    {
+      "source": "Hollow Creak",
+      "target": "Whispering Woods"
+    },
+    {
+      "source": "Ironroute",
+      "target": "Eldermist"
+    },
+    {
+      "source": "Khor-Gul",
+      "target": "Red Russ"
+    },
+    {
+      "source": "Khor-Gul",
+      "target": "Red Russ"
+    },
+    {
+      "source": "Settlements",
+      "target": "Eldermist"
+    },
+    {
+      "source": "Settlements",
+      "target": "Highstone"
+    },
+    {
+      "source": "Settlements",
+      "target": "Hollow Creak"
+    },
+    {
+      "source": "Settlements",
+      "target": "Ironroute"
+    },
+    {
+      "source": "Settlements",
+      "target": "Thornshade"
+    },
+    {
+      "source": "Settlements",
+      "target": "Obsidian Quay"
+    },
+    {
+      "source": "Settlements",
+      "target": "Khor-Gul"
+    },
+    {
+      "source": "Thornshade",
+      "target": "Whispering Woods"
+    },
+    {
+      "source": "Thornshade",
+      "target": "Whispering Woods"
+    },
+    {
+      "source": "Thornshade",
+      "target": "Hollow Creak"
+    }
+  ]
+}
