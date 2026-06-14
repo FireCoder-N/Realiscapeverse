@@ -134,3 +134,33 @@
   display: block;
   margin: auto;
 }
+
+.layout {
+  display: flex;
+  height: 100vh;
+  background: #0b0b10;
+}
+
+.sidebar {
+  width: 260px;
+  overflow-y: auto;
+  border-right: 1px solid #2a2418;
+  background: #0b0b10;
+  color: #e6e6e6;
+}
+
+.graph {
+  height: 45vh;
+  background: #0b0b10;
+}
+
+:root {
+  --graph-node: #d8c08a;
+  --graph-link: #6b3416;
+  --graph-text: #e6e6e6;
+}
+
+.note {
+  padding: 0;
+  background: transparent;
+}

@@ -1,8 +1,7 @@
 #dnd 
-# [Ο κόσμος](Η Marrow.md)
+# [Ο κόσμος (Marrow)](Η Marrow.md)
 
-# Lore
-## [Pantheon](Pantheon.md)
+## [Pantheon](03-Pantheon.md)
 
 
 
