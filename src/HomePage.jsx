@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import ForceGraph2D from 'react-force-graph-2d'
+import { GraphCanvas, darkTheme } from 'reagraph';
+import { fantasyTheme } from './fantasyTheme'
 
 export default function HomePage() {
   const [graph, setGraph] = useState(null)
@@ -18,26 +19,24 @@ export default function HomePage() {
 
   return (
     <div style={{ width: '100vw', height: '100vh' }}>
-      <ForceGraph2D
-        graphData={graph}
-        backgroundColor="#0b0b10"
-        nodeColor={() => "#d8c08a"}
-        linkColor={() => "#6b3416"}
-        linkWidth={1.2}
-        d3VelocityDecay={0.15}
-        cooldownTicks={100}
-        linkDirectionalParticles={1}
-        linkDirectionalParticleSpeed={0.01}
-        nodeRelSize={6}
-        nodeLabel="id"
-        onNodeClick={(node) => {
-            navigate(`/notes/${node.id}`)
-        }}
-        // onEngineTick={(engine) => {
-        //     engine
-        //     .force('x', null)
-        //     .force('y', null)
-        // }}
+      <GraphCanvas
+        nodes={graph.nodes.map(n => ({
+          id: n.id,
+          label: n.id
+        }))}
+        edges={graph.links.map(l => ({
+          id: `${l.source}-${l.target}`,
+          source: l.source,
+          target: l.target,
+          label: ''
+        }))}
+        theme={fantasyTheme}
+        animated={true}
+        edgeInterpolation="curved"
+        labelType="all"
+        onNodeClick={(node) =>
+          navigate(`/notes/${node.id}`)
+        }
       />
     </div>
   )

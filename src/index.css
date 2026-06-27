@@ -292,6 +292,7 @@
   width: 340px;
   display: flex;
   flex-direction: column;
+  height: 100%;
 
   border-right: 1px solid #2a2418;
   background: #0b0b10;
@@ -307,8 +308,9 @@
 
 /* BOTTOM = graph */
 .sidebar-bottom {
-  flex: 1;
-  min-height: 0;
+  height: 50%;
+  min-height: 300px;
+  position: relative;
   overflow: hidden;
 }
 

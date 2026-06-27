@@ -1,12 +1,15 @@
 import { useEffect, useState } from 'react'
 import { Outlet, useNavigate } from 'react-router-dom'
-import ForceGraph2D from 'react-force-graph-2d'
+import { GraphCanvas, darkTheme } from 'reagraph';
+import { fantasyTheme } from './fantasyTheme'
 import FolderTree from './FolderTree'
 
 export default function Layout() {
   const [folders, setFolders] = useState(null)
   const [graph, setGraph] = useState(null)
   const navigate = useNavigate()
+
+
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}folders.json`)
@@ -36,18 +39,25 @@ export default function Layout() {
 
         {/* BOTTOM: graph */}
         <div className="sidebar-bottom">
-            <div style={{ width: "100%", height: "100%" }}>
-                <ForceGraph2D
-                    graphData={graph}
-                    backgroundColor="#0b0b10"
-                    nodeColor={() => '#d8c08a'}
-                    linkColor={() => '#6b3416'}
-                    nodeLabel="id"
-                    onNodeClick={(node) =>
-                    navigate(`/notes/${node.id}`)
-                    }
-                />
-            </div>
+          <GraphCanvas
+            nodes={graph.nodes.map(n => ({
+              id: n.id,
+              label: n.id
+            }))}
+            edges={graph.links.map(l => ({
+              id: `${l.source}-${l.target}`,
+              source: l.source,
+              target: l.target,
+              label: ''
+            }))}
+            theme={fantasyTheme}
+            animated={true}
+            edgeInterpolation="curved"
+            labelType="all"
+            onNodeClick={(node) =>
+              navigate(`/notes/${node.id}`)
+            }
+          />
         </div>
 
       </aside>
