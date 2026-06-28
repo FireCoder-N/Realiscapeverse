@@ -1,7 +1,7 @@
 #dnd #location #forest  #arcana-adjacent 
 
 ## Description
-Το **Whispering Woods** είναι ένα τεράστιο δάσος στο νότο της Marrow. Περιβάλλει την περιοχή γύρω από το χωριό [Thornshade](Thornshade.md) και θεωρείται από πολλούς ότι είναι ζωντανό.
+Το **Whispering Woods** είναι ένα τεράστιο δάσος στο νότο της Marrow. Καταλαμβάνει την περιοχή νότια από το χωριό [Thornshade](Thornshade.md) και θεωρείται από πολλούς ότι είναι ζωντανό.
 
 ## Traits
 - Ζωντανό, μεταβαλλόμενο περιβάλλον

@@ -3,7 +3,7 @@ import { useState } from "react"
 export default function FolderTree({ data, onOpen }) {
   return (
     <div className="folder-tree">
-      {Object.values(data).map((node) => (
+      {Object.values(data.children).map((node) => (
         <FolderNode
           key={node.name}
           node={node}
@@ -22,16 +22,15 @@ function FolderNode({ node, onOpen, depth }) {
     node.children &&
     Object.keys(node.children).length > 0
 
-  function openNote(file) {
-    if (!file) return
+  function openFolderNote() {
+    if (!node.folderNote) return
+    onOpen(node.folderNote.title)
+  }
 
-    const noteName = file
-        .split("/")
-        .pop()
-        .replace(/\.md$/, "")
-
-    onOpen(noteName)
-   }
+  function openNote(note) {
+    if (!note) return
+    onOpen(note.title)
+  }
 
   return (
     <div className="folder-node">
@@ -39,27 +38,41 @@ function FolderNode({ node, onOpen, depth }) {
       {/* Folder header */}
       <div
         className="folder-title"
-        style={{ paddingLeft: depth * 12 }}
-        onClick={() => setOpen(!open)}
+        style={{ display: "flex", paddingLeft: depth * 12 }}
       >
-        📁 {node.name}
+        {/* toggle only */}
+        <span
+          style={{ cursor: "pointer", marginRight: 6 }}
+          onClick={() => setOpen(!open)}
+        >
+          {open ? "🗁" : "🗀"}
+        </span>
+
+        {/* folder name -> folderNote only */}
+        <span
+          style={{ cursor: node.folderNote ? "pointer" : "default" }}
+          onClick={openFolderNote}
+        >
+          {node.name}
+        </span>
       </div>
 
       {open && (
         <div className="folder-children">
 
-          {/* Folder note = ENTRY POINT */}
-          {node.folderNote && (
+          {/* notes ONLY (folderNote is intentionally NOT rendered) */}
+          {node.notes?.map((note) => (
             <div
-              className="note-link folder-note"
-              style={{ paddingLeft: depth * 12 + 12 }}
-              onClick={() => openNote(node.folderNote)}
+              key={note.file}
+              className="note-link"
+              style={{ paddingLeft: depth * 12 + 16 }}
+              onClick={() => openNote(note)}
             >
-              📄 {node.name}
+              🗒 {note.title}
             </div>
-          )}
+          ))}
 
-          {/* Subfolders */}
+          {/* subfolders */}
           {hasChildren &&
             Object.values(node.children).map((child) => (
               <FolderNode
