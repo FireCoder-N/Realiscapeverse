@@ -6,6 +6,8 @@ import GraphView from "./GraphView";
 export default function Layout() {
   const [folders, setFolders] = useState(null);
   const [graph, setGraph] = useState(null);
+  const [sidebarOpen, setSidebarOpen] = useState(true);
+
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -22,7 +24,23 @@ export default function Layout() {
 
   return (
     <div className="layout">
-      <aside className="sidebar">
+      <button
+        className="burger"
+        onClick={() => setSidebarOpen((v) => !v)}
+        aria-label="Toggle sidebar"
+      >
+        ☰
+      </button>
+      <aside className={`sidebar ${sidebarOpen ? "open" : "collapsed"}`}>
+
+        {/* header row inside sidebar */}
+        <div className="sidebar-header">
+          <h2 style={{ fontFamily: '"Comic Sans MS", cursive, serif' }}>
+            <em>Realiscapeverse</em>
+          </h2>
+        </div>
+
+
         <div className="sidebar-top">
           <FolderTree
             data={folders}

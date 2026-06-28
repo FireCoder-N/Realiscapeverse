@@ -296,6 +296,36 @@
 
   border-right: 1px solid #2a2418;
   background: #0b0b10;
+  transition: width 0.25s ease, transform 0.25s ease;
+}
+
+.sidebar.collapsed {
+  width: 0;
+  transform: translateX(-100%);
+}
+
+
+.sidebar-header {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;;
+  padding: 0 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Burger button */
+.burger {
+  position: fixed;
+  top: 2px;
+  left: 2px;
+  z-index: 1000;
+  font-size: 24px;
+  background: #1a1a22;
+  color: white;
+  border: 1px solid #333;
+  padding: 5px 8px;
+  cursor: pointer;
 }
 
 /* TOP = folders */
