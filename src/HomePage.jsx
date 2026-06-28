@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { GraphCanvas, darkTheme } from 'reagraph';
-import { fantasyTheme } from './fantasyTheme'
+import GraphView from "./GraphView";
 
 export default function HomePage() {
   const [graph, setGraph] = useState(null)
@@ -18,26 +17,9 @@ export default function HomePage() {
   }
 
   return (
-    <div style={{ width: '100vw', height: '100vh' }}>
-      <GraphCanvas
-        nodes={graph.nodes.map(n => ({
-          id: n.id,
-          label: n.id
-        }))}
-        edges={graph.links.map(l => ({
-          id: `${l.source}-${l.target}`,
-          source: l.source,
-          target: l.target,
-          label: ''
-        }))}
-        theme={fantasyTheme}
-        animated={true}
-        edgeInterpolation="curved"
-        labelType="all"
-        onNodeClick={(node) =>
-          navigate(`/notes/${node.id}`)
-        }
-      />
-    </div>
+    <GraphView
+      graph={graph}
+      onNodeClick={(node) => navigate(`/notes/${node.id}`)}
+    />
   )
 }
