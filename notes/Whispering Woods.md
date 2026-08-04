@@ -13,4 +13,4 @@
 ## Known Entities
 - Elaria (τελευταία dryad / φύλακας)
 - [Black Blood](Black%20Blood.md) (απειλή εξάπλωσης)
-- King's Weed (αντιστάθμισμα εξάπλωσης)
+- [King's Weed](King%27s%20Weed.md) (αντιστάθμισμα εξάπλωσης)
