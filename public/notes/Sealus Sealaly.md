@@ -20,7 +20,7 @@
 
 |  AC | Initiative | Speed | Passive Perception | Proficiency Bonus |
 | --: | ---------: | ----: | -----------------: | ----------------: |
-|     |            |    30 |                    |                +2 |
+|   9 |         -2 |    30 |                 15 |                +2 |
 
 ## Ability Scores
 
@@ -28,8 +28,8 @@
 
 |       | STR | DEX | CON | INT | WIS | CHA |
 | ----- | --- | --- | --- | --- | --- | --- |
-| Score |     |     |     |     |     |     |
-| Bonus |     |     |     |     |     |     |
+| Score | 6   | 6   | 16  | 14  | 17  | 12  |
+| Bonus | -2  | -2  | +3  | +2  | +3  | +1  |
 
 ### Saving Throws
 
@@ -43,18 +43,18 @@
     <td colspan="2">CHA</td>
   </tr>
   <tr>
+    <td>-2</td>
+    <td> </td>
+    <td>-2</td>
+    <td> </td>
+    <td>+3</td>
+    <td> </td>
+    <td>+4</td>
+    <td>Χ</td>
+    <td>+5</td>
+    <td>Χ</td>
     <td>+1</td>
-    <td>[]</td>
-    <td>+1</td>
-    <td>[]</td>
-    <td>+1</td>
-    <td>[]</td>
-    <td>+1</td>
-    <td>[]</td>
-    <td>+1</td>
-    <td>[]</td>
-    <td>+1</td>
-    <td>[]</td>
+    <td> </td>
   </tr>
 </table>
 
@@ -69,8 +69,8 @@
   <tr>
     <td rowspan="1">STR</td>
     <td>Athletics</td>
-    <td>+4</td>
-    <td>X</td>
+    <td>-2</td>
+    <td> </td>
   </tr>
   <tr>
     <td colspan="4"></td>
@@ -79,18 +79,18 @@
   <tr>
     <td rowspan="3">DEX</td>
     <td>Acrobatics</td>
-    <td>+4</td>
+    <td>-2</td>
     <td></td>
   </tr>
   <tr>
     <td>Sleight of Hand</td>
-    <td>+4</td>
+    <td>-2</td>
     <td></td>
   </tr>
   <tr>
     <td>Stealth</td>
-    <td>+7</td>
-    <td>X</td>
+    <td>-2</td>
+    <td></td>
   </tr>
   <tr>
     <td colspan="4"></td>
@@ -99,18 +99,18 @@
   <tr>
     <td rowspan="5">INT</td>
     <td>Arcana</td>
-    <td>+1</td>
-    <td></td>
+    <td>+4</td>
+    <td>X</td>
   </tr>
   <tr>
     <td>History</td>
-    <td>+4</td>
-    <td>X</td>
+    <td>+2</td>
+    <td> </td>
   </tr>
   <tr>
     <td>Investigation</td>
-    <td>+4</td>
-    <td>X</td>
+    <td>+2</td>
+    <td></td>
   </tr>
   <tr>
     <td>Nature</td>
@@ -119,8 +119,8 @@
   </tr>
   <tr>
     <td>Religion</td>
-    <td>+1</td>
-    <td></td>
+    <td>+4</td>
+    <td>X</td>
   </tr>
   <tr>
     <td colspan="4"></td>
@@ -129,12 +129,12 @@
   <tr>
     <td rowspan="5">WIS</td>
     <td>Animal Handling</td>
-    <td>+6</td>
-    <td>X</td>
+    <td>+3</td>
+    <td></td>
   </tr>
   <tr>
     <td>Insight</td>
-    <td>+6</td>
+    <td>+5</td>
     <td>X</td>
   </tr>
   <tr>
@@ -144,13 +144,13 @@
   </tr>
   <tr>
     <td>Perception</td>
-    <td>+9</td>
-    <td>XX</td>
+    <td>+5</td>
+    <td>X</td>
   </tr>
   <tr>
     <td>Survival</td>
-    <td>+9</td>
-    <td>XX</td>
+    <td>+3</td>
+    <td></td>
   </tr>
   <tr>
     <td colspan="4"></td>
@@ -159,23 +159,23 @@
   <tr>
     <td rowspan="4">CHA</td>
     <td>Deception</td>
-    <td>+0</td>
+    <td>+1</td>
     <td></td>
   </tr>
   <tr>
     <td>Intimidation</td>
-    <td>+0</td>
+    <td>+1</td>
     <td></td>
   </tr>
   <tr>
     <td>Performance</td>
-    <td>+0</td>
+    <td>+1</td>
     <td></td>
   </tr>
   <tr>
     <td>Persuasion</td>
-    <td>+3</td>
-    <td>X</td>
+    <td>+1</td>
+    <td></td>
   </tr>
 </table>
 
@@ -183,14 +183,14 @@
 
 | Ability | Spell Save DC | Spell Attack |
 | ------- | ------------: | -----------: |
-| WIS     |            14 |           +4 |
+| WIS     |            13 |           +5 |
 
 
 ## Inventory
 
 | CP  | SP  | EP  | GP  | PP  |
 | :-: | :-: | :-: | :-: | :-: |
-|     |     |  -  |     |     |
+|     |     |  -  | 15  |     |
 ## Backstory
 ???
 ## Connections

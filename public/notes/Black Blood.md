@@ -13,4 +13,4 @@
 - **Απειλεί να φτάσει στις ρίζες του [Whispering Woods](Whispering%20Woods.md) → πιθανή παγκόσμια καταστροφή**
 
 ## Countermeasures
-- [King's weed](King%27s%20weed.md): επιβραδύνει/αναστέλλει την εξάπλωση
+- [King's Weed](King%27s%20Weed.md): επιβραδύνει/αναστέλλει την εξάπλωση

@@ -126,8 +126,8 @@
       "folder": "Η Marrow/02-Ecosystem/Flora"
     },
     {
-      "id": "King's weed",
-      "file": "Η Marrow/02-Ecosystem/Flora/King's weed.md",
+      "id": "King's Weed",
+      "file": "Η Marrow/02-Ecosystem/Flora/King's Weed.md",
       "folder": "Η Marrow/02-Ecosystem/Flora"
     },
     {
@@ -189,6 +189,10 @@
       "target": "Sealus Sealaly"
     },
     {
+      "source": "Sealus Sealaly",
+      "target": "Selene"
+    },
+    {
       "source": "Η Marrow",
       "target": "River Varkas"
     },
@@ -222,6 +226,10 @@
     },
     {
       "source": "01-Geography",
+      "target": "Cloud-Reach Peaks"
+    },
+    {
+      "source": "01-Geography",
       "target": "Red Russ"
     },
     {
@@ -231,10 +239,6 @@
     {
       "source": "01-Geography",
       "target": "Whispering Woods"
-    },
-    {
-      "source": "01-Geography",
-      "target": "Cloud-Reach Peaks"
     },
     {
       "source": "Red Russ",
@@ -249,6 +253,10 @@
       "target": "Black Blood"
     },
     {
+      "source": "Whispering Woods",
+      "target": "King's Weed"
+    },
+    {
       "source": "02-Ecosystem",
       "target": "Flora"
     },
@@ -258,15 +266,19 @@
     },
     {
       "source": "03-Pantheon",
-      "target": "Kestos"
-    },
-    {
-      "source": "03-Pantheon",
       "target": "Bastion"
     },
     {
       "source": "03-Pantheon",
+      "target": "Kestos"
+    },
+    {
+      "source": "03-Pantheon",
       "target": "Maia"
+    },
+    {
+      "source": "03-Pantheon",
+      "target": "Mortis"
     },
     {
       "source": "03-Pantheon",
@@ -289,20 +301,8 @@
       "target": "Valia"
     },
     {
-      "source": "03-Pantheon",
-      "target": "Mortis"
-    },
-    {
       "source": "Ruse",
       "target": "Ruse"
-    },
-    {
-      "source": "Ruse",
-      "target": "Ruse"
-    },
-    {
-      "source": "Valia",
-      "target": "Valia"
     },
     {
       "source": "Valia",
@@ -358,30 +358,34 @@
     },
     {
       "source": "Black Blood",
-      "target": "King's weed"
+      "target": "King's Weed"
     },
     {
       "source": "Flora",
-      "target": "King's weed"
+      "target": "King's Weed"
     },
     {
-      "source": "King's weed",
+      "source": "King's Weed",
+      "target": "Thornshade"
+    },
+    {
+      "source": "King's Weed",
       "target": "Whispering Woods"
     },
     {
-      "source": "King's weed",
+      "source": "King's Weed",
       "target": "Maia"
     },
     {
-      "source": "King's weed",
+      "source": "King's Weed",
       "target": "Highstone"
     },
     {
-      "source": "King's weed",
+      "source": "King's Weed",
       "target": "Hollow Creak"
     },
     {
-      "source": "King's weed",
+      "source": "King's Weed",
       "target": "Black Blood"
     },
     {
@@ -406,6 +410,10 @@
     },
     {
       "source": "Highstone",
+      "target": "King's Weed"
+    },
+    {
+      "source": "Highstone",
       "target": "Eldermist"
     },
     {
@@ -414,7 +422,15 @@
     },
     {
       "source": "Hollow Creak",
+      "target": "Τα δάκρυα των Θεών"
+    },
+    {
+      "source": "Hollow Creak",
       "target": "Selene"
+    },
+    {
+      "source": "Hollow Creak",
+      "target": "King's Weed"
     },
     {
       "source": "Hollow Creak",
@@ -450,15 +466,15 @@
     },
     {
       "source": "Settlements",
-      "target": "Thornshade"
-    },
-    {
-      "source": "Settlements",
       "target": "Obsidian Quay"
     },
     {
       "source": "Settlements",
       "target": "Khor-Gul"
+    },
+    {
+      "source": "Settlements",
+      "target": "Thornshade"
     },
     {
       "source": "Thornshade",
